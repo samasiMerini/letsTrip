@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">letsTrip</string>
+    <string name="facebook_app_id">532415997440705</string> <string name="fb_login_protocol_scheme">fb532415997440705</string>
+</resources>

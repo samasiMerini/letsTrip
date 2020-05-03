@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Tzoufira" vcs="" />
+    <mapping directory="$PROJECT_DIR$/flutter" vcs="" />
+    <mapping directory="$PROJECT_DIR$/flutter/.pub-cache/git/goldens-c47f1308188dca65b3899228cac37f252ea8b411" vcs="" />
+    <mapping directory="$PROJECT_DIR$/flutter/bin/cache/pkg/goldens" vcs="" />
+    <mapping directory="$PROJECT_DIR$/pharma_perma" vcs="" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116321452260",
+    "firebase_url": "https://trippers-c376a.firebaseio.com",
+    "project_id": "trippers-c376a",
+    "storage_bucket": "trippers-c376a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116321452260:android:5d14b4908c463b79b9acf1",
+        "android_client_info": {
+          "package_name": "com.miam.letstrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116321452260-r3crk05h58h58mprnop4pvmd92r6khb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miam.letstrip",
+            "certificate_hash": "b036885dc36db19636bea9dc1f30eab4d95a2a54"
+          }
+        },
+        {
+          "client_id": "116321452260-ictv93qquq7li2c0si7lrumrikc5a99i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewZ94hjqMKF2sMgwzbMN0RDmS3scjnSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116321452260-ictv93qquq7li2c0si7lrumrikc5a99i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_text"
+            android:layout_width="match_parent"
+            android:hint="Enter your email"
+            android:padding="10dp"
+            android:layout_height="45dp"/>
+        <EditText
+            android:id="@+id/password"
+            android:layout_margin="10dp"
+            android:background="@drawable/back_text"
+            android:layout_width="match_parent"
+            android:hint="Enter your Password"
+            android:padding="10dp"
+            android:layout_height="45dp"/>
+        <Button
+            android:id="@+id/signInBtn"
+            android:background="@drawable/back_button"
+            android:layout_width="match_parent"
+            android:text="Sign In"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:layout_height="45dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/googleBtn"
+                android:background="@drawable/google_button"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_copyright"
+                android:textColor="@android:color/white"
+                android:layout_height="45dp"/>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/faceBtn"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/fb_button"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account ?"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/signupBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="Sign Up"
+                android:layout_weight="3"
+                android:textColor="@android:color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
