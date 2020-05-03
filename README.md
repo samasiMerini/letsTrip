@@ -17,7 +17,7 @@ Use the Android Studio *Build Variants* button to choose between **production** 
 ## Maintainers
 This project is mantained by:
 * [Merini Abdessamad](http://github.com/samasiMerini)
-* [Nisrine](http://github.com/samasiMerini)
-* [Ayoub](http://github.com/samasiMerini)
+* [Nisrine](https://github.com/NisrineBL)
+* [Ayoub](https://github.com/devLaaziz)
 
 
